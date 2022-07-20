@@ -1,0 +1,99 @@
+.infoGame {
+    display:flex;
+    justify-content:center;
+    margin:auto;
+    height: 100%;
+    width:100%;
+    margin-top: 2px;
+}
+
+.articleInfoGames {
+    background-color: #C9D269;
+    position: relative;
+    border: solid 0.5px;
+    width:100%;
+    height: auto;
+}
+
+.tableInfoGame {
+    height: 100%;
+    width:100%;
+}
+
+.bgInfoGames{
+    margin-top:50px;
+}
+/* IMG */
+.imgInfoGames {
+    display:flex;
+    justify-content:center;
+    margin: auto;
+   
+    margin-bottom: 50px;
+}
+
+
+.imgInfoGames:hover{
+    cursor:pointer;
+    transform:rotate(-30deg);
+    transition: 2.5s;
+}
+ .h3InfoGames {
+    margin: 20px;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    
+}
+.h3InfoGames span{
+    font-size: 4Opx;
+}
+/* Description */
+.pDescription{
+margin:10px 10px;
+text-align:center;
+font-size: 18px;
+font-weight:400;
+}
+
+/* niveau */
+.pDif{
+text-align:center;
+font-size: 20px;
+font-weight:900;
+
+}
+.hr{
+    background:#fff;
+    width:20%;
+    height:2px;
+    display:flex;
+    justify-content:center;
+    margin:15px auto;
+}
+
+@media (min-width: 800px) {
+    
+    .imgInfoGame {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .imgInfoGame {
+        height: 250px;
+        width: 250px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .tableInfoGame {
+        grid-template-columns: 24% 24% 24% 24%;
+    }
+    .imgInfoGame {
+        height: 250px;
+        width: 250px;
+    }
+}
